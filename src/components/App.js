@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Logo from './Logo';
 import ItemGrid from './ItemGrid';
 import GlobalStyles from './GlobalStyles';
+import Cart from './Cart'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <ItemGridWrapper>
         <ItemGrid />
       </ItemGridWrapper>
+      <Cart/>
 
       <GlobalStyles />
     </Wrapper>
